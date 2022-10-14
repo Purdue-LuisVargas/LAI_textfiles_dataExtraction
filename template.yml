@@ -1,0 +1,46 @@
+TEMPLATE_INPUT: 
+  Folder : ./input/
+  #Input_template_file_name : base_template_example.csv
+  Input_template_file_name : base_template_example.csv
+
+COLUM_WITH_NAME: 'LAI_FILE'
+
+FILE_NAME:
+  #AE1-001A
+  Plot : [5, 3]
+  Sample_name : [8, 1]
+  Experiment_name: [1, 1]
+  Environment : [2, 1]
+  Sampling_identifier : [3, 1]
+  
+
+EXPERIMENT_NAME:
+  A : ACRE-Biomass
+  P : PPAC
+
+ENVIRONMENT:
+  E : Early
+  L : Late
+  I : I1
+  M : M2
+
+SAMPLING_IDENTIFIER:
+  1 : sampling-1
+  2 : sampling-2
+  3 : sampling-3
+  4 : sampling-4
+  5 : sampling-5
+
+COMPLEMENTARY_INFO :
+  Measurment : LAI
+  Season : y22
+
+SAMPLE_IDENTIFIER :
+  id_sample:
+    - Plot
+    - Sample_name
+    - Experiment_name
+    - Environment
+    - Season
+    - Measurment
+    - Sampling_identifier
